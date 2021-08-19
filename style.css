@@ -7,8 +7,12 @@
 }
 
 @media (max-width: 600px) {
-  .about-link { display: none; }
-  .hero-text { font-size: 20px; }
+  .about-link { 
+    display: none; 
+    }
+  .hero-text { 
+    font-size:10px; 
+    }
 }
 
 body {
@@ -16,21 +20,12 @@ body {
   max-width: 100%;
 }
 
-h1,
+
 h2,
 h3 {
   text-align: center;
   margin: 0;
 }
-
-h1 {
-  font-size: 100px;
-}
-
-h2 {
-  font-size: 48px;
-}
-
 h3 {
   font-size: 24px;
   opacity: 0.7;
