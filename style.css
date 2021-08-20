@@ -75,6 +75,11 @@ p {
   border: 1px solid var(--primary-color);
 }
 
+.more-link {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -125,18 +130,14 @@ img {
   color: white;
 }
 
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
+
+.hero-about {
   text-align: center;
-  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: var(--secondary-color);
 }
 
-.hero-text button:hover {
-  background-color: #555;
-  color: white;
-}
+
